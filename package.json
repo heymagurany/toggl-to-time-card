@@ -1,0 +1,43 @@
+{
+  "name": "toggl-to-timecard",
+  "version": "1.0.0",
+  "description": "Imports Toggl time entries into the DelMar Time Card service.",
+  "homepage": "https://bitbucket.org/heymagurany/toggl-to-time-card",
+  "dependencies": {
+    "toggl-api": ">=0.0.3",
+    "request": ">=2.53.0",
+    "soap": ">=0.6.1",
+    "async": ">=0.9.0"
+  },
+  "devDependencies": {
+    "grunt": ">=0.4.5",
+    "grunt-contrib-jshint": "^0.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toggl",
+    "timecard",
+    "time-logging",
+    "time-tracking",
+    "delmar"
+  ],
+  "author": "Matt Magurany",
+  "license": {
+    "type": "MIT",
+    "url": "https://bitbucket.org/heymagurany/toggl-to-time-card/raw/0ee3ec2b43327b525b8562934e9a767fb7df8f15/LICENSE"
+  },
+  "repository": {
+    "type": "mercurial",
+    "url": "https://bitbucket.org/heymagurany/toggl-to-time-card"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "toggl-to-timecard": "./bin/toggl-to-timecard",
+    "timecard-to-toggl": "./bin/timecard-to-toggl"
+  }
+}
